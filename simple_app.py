@@ -17,7 +17,7 @@ fig1 = px.bar(tita,x="sex",y="alive")
 fig2 = px.violin(tips,x="sex",y="tip")
 
 # Streamlit web app layout
-st.title("Data Visualization with Plotly")
+st.title("Data Visualization with ly")
 
 # Section 1: Bar Plot
 
