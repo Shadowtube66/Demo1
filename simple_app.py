@@ -9,11 +9,11 @@ import numpy as np
 #loading datasets
 
 tips = sns.load_dataset('tips')
-hp = sns.load_dataset('healthexp')
+tita = sns.load_dataset('titanic')
 
 #Plots
 
-fig1 = px.bar(tips,x="sex",y="alive")
+fig1 = px.bar(tita,x="sex",y="alive")
 fig2 = px.scatter(tips,x="sex",y="tip")
 
 # Streamlit web app layout
