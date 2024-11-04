@@ -14,7 +14,7 @@ tita = sns.load_dataset('titanic')
 #Plots
 
 fig1 = px.bar(tita,x="sex",y="alive")
-fig2 = px.scatter(tips,x="sex",y="tip")
+fig2 = px.violin(tips,x="sex",y="tip")
 
 # Streamlit web app layout
 st.title("Data Visualization with Plotly")
